@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    width: 100%; 
+    min-height: 100%;
+    background-color:#f4f9fd;
+}
+html{
+  height: 100%;
+}
+
+@media (min-width: 1400px) {
+  .container2 { 
+  width: 550px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto; 
+  }
+}
+
+	
+@media (max-width: 768px) {
+  .container2 { 
+  width: 550px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto; 
+    position: relative;
+    top: 100px;
+  }
+  .nav-link{
+  color:white;
+  }
+}
+ 
+@media (min-width: 1024px) {
+  .container2 {
+  width: 550px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 992px){
+.container2{
+   width: 550px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+@media (max-width: 600px) {
+.container2 {
+    width: 400px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 100px;
+  
+  }
+    .nav-link{
+  color:white;
+  }
+  
+}
+
+.aa {
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+.aa {
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.lang{
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 90%;
+    font-weight: 400;
+
+}
